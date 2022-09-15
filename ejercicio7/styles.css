@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+header{
+    background-color: grey;
+    height: 20em;
+    margin: 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 15em;
+    margin-top: 2.5em;
+}
+ul {
+    background-color: darkblue;
+    color: white;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li {
+    margin: 1em;
+}
+article {
+    text-align: left;
+    padding: 1em 5em 1em 5em;
+}

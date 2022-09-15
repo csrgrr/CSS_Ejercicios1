@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+p{
+border: solid salmon 2px;
+border-radius: 10px;
+background-color: aqua;
+margin: 2em;
+padding: 1em 10em 1em 10em;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label>Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label>Edad:</label><br>
+            <input type="text" id="edad" name="edad"><br>
+            <label>Dirección</label><br>
+            <input type="text" id="direccion" name="direccion"><br>
+          </fieldset>
+          <fieldset>
+            <legend>Datos de tu ordenador</legend>
+            <label>Modelo de ordenador:</label><br>
+            <input type="text" id="modelo" name="modelo"><br>
+            <label>Sistema que te da el pronblema:</label>
+            <select id="sistema" name="sistemas">
+                <option value="CPU">CPU</option>
+                <option value="GPU">GPU</option>
+                <option value="RAM">RAM</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>Descripción del problema</legend>
+            <textarea name="descripcion" rows="10" cols="63"></textarea>
+          </fieldset>
+          
+          <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

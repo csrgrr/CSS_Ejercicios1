@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+form {
+    border: solid black 1px;
+    text-align: center;
+    margin: 2em;
+    width: fit-content;
+    padding: 2em 10em 2em 10em;
+}
+#usuario, #contraseña {
+    text-align: center;
+    border: solid grey 1px;
+    margin-top: 1em;
+}
+
+form :last-child {
+    background-color: orange;
+    color: white;
+    margin: 2em;
+    height: 3em;
+    border: none;
+}

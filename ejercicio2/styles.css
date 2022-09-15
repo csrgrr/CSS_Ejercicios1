@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+div{
+    width: 25em
+}
+h3, p{
+    text-align: center;
+}
+p{
+    font-style: italic;
+}
+hr{
+    width: 50em;
+}
+ol, ul {
+margin: auto;
+border: dotted black 2px;
+padding: 1em 2em 1em 2em;
+}

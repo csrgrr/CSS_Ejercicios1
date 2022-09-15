@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(202, 184, 203);
+}
+h3 {
+    color: white;
+}
+table, tr, th, td {
+    border: solid black .5px;
+    border-collapse: collapse;
+}
+table {
+    width: 30em;
+    background-color: white;
+}
+svg {
+    width: 1em;
+    margin: 1em;
+}
+td{
+   padding: .5em;
+}

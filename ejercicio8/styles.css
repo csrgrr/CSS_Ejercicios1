@@ -1,0 +1,47 @@
+body {
+ font-family: sans-serif;
+ background-color: cornflowerblue;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ color: grey;
+}
+
+
+#contenedor {
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20em;
+}
+
+.linea {
+    background-color: rgb(235, 235, 235);
+    margin: .2em 1em .2em 1em;
+    height: 1.5em;
+    border-radius: 5px;
+}
+
+#circulo {
+    margin-top: 10em;
+    background-color: rgb(235, 235, 235);
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    
+    display: flex;
+    align-self: center;
+}
+#rectangulo {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background-color: rgb(235, 235, 235);
+    width: 10em;
+    height: 2em;
+    
+    display: flex;
+    align-self: center;
+}

@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+fieldset, input {
+    margin-top: 2em;
+}
+fieldset {
+    width: 30em;
+}
+input {
+    width: 30em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+input:last-of-type {
+    width:auto;
+    margin-top: 1em;
+    
+
+}
+
+
+fieldset :first-child {
+    font-weight: 700;
+}
+fieldset:first-of-type legend {
+    font-size: 1.5em;
+}
